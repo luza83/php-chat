@@ -1,18 +1,16 @@
+<html>
+  <head>
+    <title>PHP Test</title>
+  </head>
+  <body>
+    <?php echo '<p>Web utvikling IBE102</p>'; ?> 
 
-<?php   require "topp.php";
-        
-?>
-    <p>After</p>
-    <ul>
-    <li><a href='ob2.php'>oblig 2 (variabler og løkker)</a></li>
-    <li><a href='ob3.php'>oblig 3 (matriser)</a></li>
-    <li><a href='ob4.php'>oblig 4 (vis valuta)</a></li>
-    <li><a href='ob6.php'>oblig 6 (vis valuta med letefunksjon)</a></li>
-    <li><a href='chat.php'>chat </a></li>
+    <form action="sjekklogin.php" method="post">
+      Navn: <input name="bruker" type="text">
+      Passord: <input name="passord" type="password">
+      <input type="submit" name="logginn" value="Logg inn">
+    </form> 
 
-    </ul><hr>
-
-
-<?php  
-        require "bunn.php";
-?>
+    <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+  </body>
+</html>

@@ -1,5 +1,4 @@
 
-
 <hr />
 <form>
 <p><i>Om nettstedet</i>:  Ansvarlig:  Meg Selv.  Tlf. 123123.</p>
